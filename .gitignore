@@ -1,0 +1,54 @@
+# WSL / Windows Alternate Data Streams (Zone.Identifier)
+*:Zone.Identifier
+*Zone.Identifier*
+*:Zone.Identifier:$DATA
+
+# Entornos virtuales
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Datos y descargas (Fashion-MNIST)
+data/
+datasets/
+*.tar.gz
+*.zip
+
+# Pesos de modelos / checkpoints
+*.pt
+*.pth
+
+# Copias y respaldos temporales (Windows / macOS / Linux)
+* - copia*
+* - Copy*
+* - Copia*
+*.bak
+*~
+*.swp
+
+# Herramientas del IDE / Agentes locales
+.agents/
+.gemini/
+
+# IDEs y SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
